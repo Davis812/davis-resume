@@ -3,15 +3,15 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 
-<title>HTML5 Resume that Includes Schema.org Microdata | Tutorial Demo</title>
+<title>resume</title>
 
 <!-- Meta -->
-<meta name="description" content="Demo for tutorial about creating HTML5 resume that includes Schema.org Microdata. Demo is a custom designed HTML5 resume template that you are free to use for your online resume!">
+<meta name="description" content="A HTML5 resume  for davis online !">
 <meta name="keywords" content="web,developer,designer,resume,html5,schema,microdata" />
 <meta name="author" content="Janet Wagner">
 
 <!-- CSS Stylesheet -->
-<link rel="stylesheet" type="text/css" href="../stytlesheets/style.css" />
+<link rel="stylesheet" type="text/css" href="../stylesheets/style.css" />
 
 <!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,29 +35,30 @@
 
 <!-- Begin Profile Image Section -->
 <div class="header_1">
-<img src="images/profile.jpg" itemprop="image" width="250" height="250" alt="Your Name" />
+<img src="images/davis.png" itemprop="image" width="250" height="250" alt="Your Name" />
 </div>
 <!-- End Profile Image Section -->
 
 <!-- Begin Profile Information Section -->
 <div class="header_2">
 
-<h1><span itemprop="name">Your Name</span></h1>
-<h3><span itemprop="jobTitle">Web Developer / Designer</span></h3>
+<h1><span itemprop="name">邵大伟</span></h1>
+<h3><span itemprop="jobTitle">求职意向：软件工程师</span></h3>
 
 <!-- Begin PostalAddress Schema -->
 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 <ul class="info_1">
-<li class="address"><span itemprop="streetAddress">555 Street Address</span>, <span itemprop="addressLocality">Toledo</span>, <span itemprop="addressRegion">Ohio</span>, <span itemprop="postalCode">43606</span>  <span itemprop="addressCountry">U.S.A.</span></li>
+<li class="forjob"><span itemprop="streetAddress">甘肃张掖</span></li>
 </ul>
 </div>
 <!-- End PostalAddress Schema -->
 
 <ul class="info_2">
-<li class="phone"><span itemprop="telephone">(000) 000-0000</span></li>
-<li class="email"><a href="mailto:your-email@gmail.com" itemprop="email">your-email@gmail.com</a></li>
-<li class="site_url"><a rel="me" itemprop="url" href="http://www.webcodepro.net/about.php" title="www.your-website.com">www.your-website.com</a></li>
-<li class="twitter"><a rel="me" itemprop="url" href="http://twitter.com/twitter-screen-name" title="Follow Me on Twitter">@twitter-screen-name</a></li>
+<li class="phone"><span itemprop="telephone">13919495243</span></li>
+<li class="qq"><span itemprop="telephone">644636051</span></li>
+<li class="email"><a href="mailto:sdw_644636051@qq.com" itemprop="email">sdw_644636051@qq.com</a></li>
+<li class="github"><a rel="me" itemprop="url" href="https://github.com/Davis812" title="www.github.com">https://github.com/Davis812</a></li>
+<li class="csdn"><a rel="me" itemprop="url" href="http://blog.csdn.net/davis_007" title="blog.csdn.net">http://blog.csdn.net/davis_007</a></li>
 </ul>
 
 </div>
@@ -74,11 +75,13 @@
 
 <!-- Begin Profile Section -->
 <dl>
-<dt>Profile:</dt>
+<dt>教育经历:</dt>
 <dd>
 
 <section class="summary">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+        2006.9-2010.6  西北师范大学   计算机科学与技术      本科
+  <br />2012.9-2015.6  兰州理工大学   计算机技术                  硕士
+  <br />2013.11        获得网络工程师证书
 </section>
 
 </dd>
@@ -91,25 +94,20 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 <div itemscope itemtype="http://schema.org/ItemList">
 
 <dl>
-<dt itemprop="name">Skills:</dt>
+<dt itemprop="name">专业技能:</dt>
 <dd>
 
 <section id="skills">
 <ul class="list1">
-<li itemprop="itemListElement">XHTML</li>
-<li itemprop="itemListElement">HTML5</li>
-<li itemprop="itemListElement">PHP</li>
-<li itemprop="itemListElement">JavaScript</li>
-<li itemprop="itemListElement">Magento</li>
-<li itemprop="itemListElement">WordPress</li>
-</ul>
-<ul class="list2">
-<li itemprop="itemListElement">HTML</li>
-<li itemprop="itemListElement">CSS</li>
-<li itemprop="itemListElement">MySQL</li>
-<li itemprop="itemListElement">jQuery</li>
-<li itemprop="itemListElement">CMS Made Simple</li>
-<li itemprop="itemListElement">Photoshop</li>
+<li itemprop="itemListElement">熟悉C/C++程序设计语言</li>
+<li itemprop="itemListElement">熟悉数据结构及算法</li>
+<li itemprop="itemListElement">熟悉JavaScript面向对象程序设计</li>
+<li itemprop="itemListElement">熟练使用node.js进行Web Application开发</li>
+<li itemprop="itemListElement">熟练使用MySQL,熟悉SQL语句，熟悉索引及存储过程</li>
+<li itemprop="itemListElement">熟练使用MongoDB</li>
+<li itemprop="itemListElement">了解基本Web安全及优化知识</li>
+<li itemprop="itemListElement">了解jQuery及Ajax库</li>
+<li itemprop="itemListElement">了解HTML5、CSS3</li>
 </ul>
 </section>
 
@@ -123,7 +121,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 <!-- Begin Experience Section -->
 <dl>
-<dt>Experience:</dt>
+<dt>项目经验：</dt>
 
 <dd>
 
@@ -132,12 +130,15 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 <!-- Position #1 -->
 <div itemscope itemtype="http://schema.org/Organization">
 
-<h2 class="top"><span itemprop="jobTitle">Web Developer / Designer</span></h2>
-<p class="bus1"><span itemprop="name">Company Name 1</span></p>
-<p class="time">February 2009 &#45; Present</p>
+<h2 class="top"><span itemprop="jobTitle">室内环境控制研究</span></h2>
+<p class="time">2013.7——至今 </p>
 
 <p itemprop="description">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
+   项目描述：2013年7月开始，我在清华大学智能与网络化信息中心实习，开始本项目研究，重点研究在室内环境调节舒适的前提下实现节能。
+   本项目分三阶段完成，第一阶段是依据研究目标开发室内环境集成控制系统；第二阶段是实验阶段，实施实验，收集实验数据；第三阶段
+   是实验数据分析与系统改进、撰写论文阶段。<br />
+  项目收获：创新是技术发展的灵魂，只有创新，技术才能有进步,而生活中的洞察与思考便是创新的来源。另外，通过课题的研究，学习了对课题系统研究的方法。
+  
 </p>
 
 </div>
@@ -145,12 +146,13 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 <!-- Position #2 -->
 <div itemscope itemtype="http://schema.org/Organization">
 
-<h2><span itemprop="jobTitle">Web Developer / Programmer</span></h2>
-<p class="bus1"><span itemprop="name">Company Name 2</span></p>
-<p class="time">November 2007 &#45; February 2009</p>
+<h2><span itemprop="jobTitle">BaseCtrl</span></h2>
+<p class="time">2013.7-2014.3</p>
 
 <p itemprop="description">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
+项目描述：  本项目是研究课题——室内环境控制研究系统的底层控制软件。实现对室内环境参数的采集与调节设备的开关控制。
+<br />使用技术：  MFC、串口通信技术、ADO数据库技术
+<br />项目收获：  在项目期间，认真学习了孙鑫老师《VC++深入详解》和龚建伟《VISUAL C++/TURBO C串口通信编程实践》相关知识。了解了MFC开发的方法；学会使用CMSCOMM控件进行串口通信程序的开发；封装了ADO类，能熟练使用ADO技术对数据进行存取 
 </p>
 
 </div>
@@ -158,12 +160,27 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 <!-- Position #3 -->
 <div itemscope itemtype="http://schema.org/Organization">
 
-<h2><span itemprop="jobTitle">Web Developer / Programmer</span></h2>
-<p class="bus1"><span itemprop="name">Company Name 3</span></p>
-<p class="time">March 2006 &#45; November 2007</p>
+<h2><span itemprop="jobTitle">IECSystem</span></h2>
+<p class="time">2013.11-至今</p>
 
 <p itemprop="description">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+项目描述：   室内环境控制研究系统Web网站，主要功能是方便用户查看影响环境质量的室内环境参数，执行环境调控设备等操作。<br/>
+使用技术：   node.js、MySQL、 HTML、CSS<br/>
+项目收获：   学会在node.js中使用mysql模块对数据库操作。能独立开发数据库操作功能模块，实现对数据的增删改查。
+</p>
+
+</div>
+
+<!-- Position #4 -->
+<div itemscope itemtype="http://schema.org/Organization">
+
+<h2><span itemprop="jobTitle">blog-by-davis</span></h2>
+<p class="time">2013.8-2014.2</p>
+
+<p itemprop="description">
+项目描述：   使用Express+MongoDB搭建多人博客。<br/>
+使用技术：   Express、ejs、MongoDB<br/>
+项目收获：   本项目是我学习Web开发的入门项目，完全按照cnode.js社区nswbmw分享的教程N-blog进行学习。通过项目，对Express、ejs以及MongoDB有了比较清楚的认知
 </p>
 
 </div>
@@ -178,14 +195,14 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 <!-- Begin Publications Section -->
 <dl>
-<dt>Publications:</dt>
+<dt>自我评价：</dt>
 
 <dd>
 
 <section id="publications">
 
 <div itemscope itemtype="http://schema.org/Article"><span itemprop="name">
-<a itemprop="url" href="http://net.tutsplus.com/tutorials/php/how-to-create-an-advanced-twitter-widget/" target="_blank" title="How to Create an Advanced Twitter Widget">"How to Create an Advanced Twitter Widget"</a></span>, <a href="http://net.tutsplus.com/" target="_blank" title="Nettuts+">Nettuts+</a>, 8/25/11
+<span>乐观开朗，为人诚恳，尚思进取，对专业技术有浓厚兴趣</span>
 </div>
 
 </section>
@@ -196,72 +213,32 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 <div class="clear">&nbsp;</div>
 
-<!-- Begin Education Section -->
+<!-- Begin interests Section -->
+<div itemscope itemtype="http://schema.org/ItemList">
+
 <dl>
-<dt>Education:</dt>
+<dt itemprop="name">专业技能:</dt>
 <dd>
 
-<section id="education">
-<div itemscope itemtype="http://schema.org/EducationalOrganization">
-
-<p class="bus1"><span itemprop="name">University of Toledo</span></p>
-
-<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-<span itemprop="streetAddress">2801 Bancroft Street</span>
-<br />
-<span itemprop="addressLocality">Toledo</span>, <span itemprop="addressRegion">Ohio</span>, <span itemprop="postalCode">43606</span>  <span itemprop="addressCountry">U.S.A.</span>
-</div>
-
-<p class="summary"><span itemprop="name">Web Design</span></p>
-<p class="time">2003 &#45; 2005</p>
-
-<p class="edu-info">
-<a itemprop="url" href="http://www.utoledo.edu/" target="_blank" title="University of Toledo">www.utoledo.edu</a>
-</p>
-
-</div>
+<section id="skills">
+<ul class="list1">
+<li itemprop="itemListElement"><a href="http://v.qq.com/page/b/5/g/b1037zshk5g.html">弹钢琴</a></li>
+<li itemprop="itemListElement">收藏乐器</li>
+<li itemprop="itemListElement">看历史相关小说</li>
+<li itemprop="itemListElement">徒步、打乒乓球</li>
+</ul>
 </section>
 
 </dd>
 </dl>
-<!-- End Education Section -->
+
+</div>
+<!-- End interests Section -->
 
 <div class="clear">&nbsp;</div>
 
 <!-- Begin Footer -->
 <footer id="footer">
-
-<!-- Begin Footer Content -->
-<div class="footer_content">
-
-<!-- Begin Social Media and Download Links -->
-<div itemscope itemtype="http://schema.org/Person">
-
-<ul class="icons_1">
-<li><a rel="author" itemprop="url" href="https://profiles.google.com/jwagner719" title="Google Profile"><img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32" alt="Google Profile"></a></li>
-<li><a rel="me" itemprop="url" href="http://dribbble.com/" title="Dribbble"><img src="images/dribbble.png" width="32" height="32" alt="Dribbble" /></a></li>
-<li><a rel="me" itemprop="url" href="http://www.linkedin.com/" title="LinkedIn"><img src="images/linkedin.png" width="32" height="32" alt="LinkedIn" /></a></li>
-<li><a rel="me" itemprop="url" href="http://www.facebook.com/" title="Facebook"><img src="images/facebook.png" width="32" height="32" alt="Facebook" /></a></li>
-<li><a rel="me" itemprop="url" href="http://www.flickr.com/" title="Flickr"><img src="images/flickr.png" width="32" height="32" alt="Flickr" /></a></li>
-<li><a rel="me" itemprop="url" href="http://twitter.com/" title="Follow Me on Twitter!"><img src="images/twitter.png" width="32" height="32" alt="Follow Me on Twitter!" /></a></li>
-</ul>
-
-<ul class="icons_2">
-<li><a href="resume.pdf" title="Download Resume PDF"><img src="images/download.png" width="48" height="48" alt="Download Resume PDF" /></a></li>
-</ul>
-
-</div>
-<!-- End Social Media and Download Links -->
-
-</div>
-<!-- End Footer Content -->
-
-<div class="credits">
-Social Icons by <a href="http://paulrobertlloyd.com/2009/06/social_media_icons" target="_blank" title="Paul Robert Lloyd">Paul Robert Lloyd</a>, Profile &amp; Download Icons by <a href="http://dryicons.com/" target="_blank" title="DryIcons">DryIcons</a>, Phone Icon by <a href="http://www.comfi.com/telecom-icons/" target="_blank" title="ComFi Telecom">ComFi Telecom</a>, Profile Image User Symbol by <a href="http://thenounproject.com/" target="_blank" title="The Noun Project">The Noun Project</a>.
-<br />
-All used under a Creative Commons Attribution-ShareAlike license: <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" title="Creative Commons Attribution-ShareAlike license">http://creativecommons.org/licenses/by-sa/3.0/</a>
-</div>
-
 </footer>
 <!-- End Footer -->
 

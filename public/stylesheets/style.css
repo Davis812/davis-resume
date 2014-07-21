@@ -114,9 +114,9 @@ a:active {
 
 #contact-details  h3	{
 	margin: 0px 0px 32px 20px;
-	font-size: 30px;
-	font-weight: bold;
-	font-style: italic;
+	font-size: 25px;
+	font-weight: normal;
+	font-style: normal;
 }
 
 #contact-details ul.info_1	{
@@ -131,8 +131,9 @@ a:active {
 	font-size: 18px;
 }
 
-#contact-details li.address	{
-    background: url("../images/home.png") no-repeat;
+#contact-details li.forjob	{
+	background: url("../images/home.png") no-repeat;
+	font-weight: bold;
 	background-position: 0px 0px;
     padding: 0px 0px 12px 40px;
 }
@@ -143,20 +144,26 @@ a:active {
     padding: 0px 0px 12px 40px;
 }
 
+#contact-details li.qq	{
+    background: url("../images/qq.png") no-repeat;
+	background-position: 0px 0px;
+    padding: 0px 0px 12px 40px;
+}
+
 #contact-details li.email	{
     background: url("../images/mail.png") no-repeat;
 	background-position: 0px 0px;
     padding: 0px 0px 12px 40px;
 }
 
-#contact-details li.site_url	{
-    background: url("../images/computer.png") no-repeat;
+#contact-details li.github	{
+    background: url("../images/git.png") no-repeat;
 	background-position: 0px 2px;
     padding: 0px 0px 12px 40px;
 }
 
-#contact-details li.twitter	{
-    background: url("../images/twitter_sm.png") no-repeat;
+#contact-details li.csdn	{
+    background: url("../images/csdn.png") no-repeat;
 	background-position: 0px 0px;
     padding: 0px 0px 12px 40px;
 }
@@ -189,7 +196,7 @@ dt	{
 	width: 200px;
 	font-size: 20px;
 	font-weight: bold;
-	font-style: italic;
+	font-style: normal;
 	text-align: right;
 }
 
@@ -208,14 +215,9 @@ dt#contact 	{
 }
 
 dd#contact 	{
-	margin: 0px;
+	margin:0px;
 }
 
-p.bus1	{
-	margin: 0px;
-	font-weight: bold;
-	color: #669933;
-}
 
 p.edu-info	{
 	margin: 10px 0px 0px 0px;
@@ -243,15 +245,8 @@ p.summary	{
 #skills ul.list1	{	
 	float: left;
 	list-style: none;
-	margin: 0px 0px 0px -40px;
-	width: 220px;
-}
-
-#skills ul.list2	{	
-	float: left;
-	list-style: none;
-	margin: 0px 0px 0px 0px;
-	width: 220px;
+	margin: 2px 0px 2px -40px;
+	width: 450px;
 }
 
 #skills li {
