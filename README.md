@@ -1,20 +1,13 @@
+#davis-resume  
+--------------------
+即将要开始找工作了，做一份自己的简历放在这里，希望：
 
+0. 巩固一下自己在简历中提到的自己了解的专业技能。             
 
-# davis-resume
+1. 得到您的赏识。      
 
+说明:
 
-
-## Usage
-
-
-
-## Developing
-
-
-
-### Tools
-
-Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
-
-Nodeclipse is free open-source project that grows with your contributions.
+   >1.本简历并非原创，是参照[此文](http://developer.51cto.com/art/201111/301684.htm)制作。  
+   >2.服务端使用node.js。  
+   >3.网络访问地址：[我的在线简历](202.201.34.108:3000 "我的在线简历")。
