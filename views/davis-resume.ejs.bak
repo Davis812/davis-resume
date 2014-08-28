@@ -175,7 +175,7 @@
 <div itemscope itemtype="http://schema.org/Organization">
 
 <h2><span itemprop="jobTitle">IECSystem</span></h2>
-<p class="time">2013.11-2014.8</p>
+<p class="time">2013.11-至今</p>
 
 <p itemprop="description">
 项目描述：   室内环境控制研究系统Web网站，它作为用户对整体系统就行控制的交互接口，根据用户的权限的不同，可实现对系统相应的控制操作。如一般用户能够通过系统查看到房间内的环境质量数据，查看所有用户的环境感受反馈，对调控设备进行开关操作等，而除此之外，管理员还具有对用户进行增删权限修改，对屋内的环境质量参数的调控幅度进行修改等权限。<br/>
